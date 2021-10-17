@@ -1,0 +1,57 @@
+.ground {
+    stroke: black;
+    stroke-width: 3;
+}
+
+.background {
+    fill: lightblue;
+}
+
+.body {
+    fill: white;
+    stroke-width: 2;
+    stroke: black;
+}
+
+.buttons .eyes {
+    fill: black;
+}
+
+.mouth {
+    fill: transparent;
+    stroke: black;
+    stroke-width: 4;
+}
+
+.hat {
+    fill: black;
+}
+
+.arms {
+    stroke-width: 4;
+    stroke: brown;
+}
+
+.nose {
+    fill: orange;
+    stroke: black;
+    stroke-width: 1;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    background-color: #809bce;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+    font-size: large;
+}
+
+.navigation a:hover {
+    background: #95b8d1;
+}

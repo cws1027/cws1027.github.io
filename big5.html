@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS 6820 Assignment 2</title>
+    <link rel="stylesheet" href="big5.css">
+</head>
+<body>
+<header>
+    <ul class="navigation">
+        <li><a href="index.html">Index Link</a></li>
+    </ul>
+</header>
+<h1>Carson Sorenson: My Personality Trait Average Scores</h1>
+<svg width="600" height="400">
+    <!-- Section for the lines going across the graph -->
+    <g>
+        <line x1="50" y1="20" x2="50" y2="330" />
+        <line x1="100" y1="20" x2="100" y2="330" />
+        <line x1="150" y1="20" x2="150" y2="330" />
+        <line x1="200" y1="20" x2="200" y2="330" />
+        <line x1="250" y1="20" x2="250" y2="330" />
+        <line x1="300" y1="20" x2="300" y2="330" />
+        <line x1="350" y1="20" x2="350" y2="330" />
+        <line x1="400" y1="20" x2="400" y2="330" />
+        <line x1="450" y1="20" x2="450" y2="330" />
+        <line x1="500" y1="20" x2="500" y2="330" />
+        <line x1="550" y1="20" x2="550" y2="330" />
+    </g>
+
+    <!-- Section for the x labels -->
+    <g class="xlabel">
+        <text dominant-baseline="central" x="50" y="345">0</text>
+        <text dominant-baseline="central" x="100" y="345">10</text>
+        <text dominant-baseline="central" x="150" y="345">20</text>
+        <text dominant-baseline="central" x="200" y="345">30</text>
+        <text dominant-baseline="central" x="250" y="345">40</text>
+        <text dominant-baseline="central" x="300" y="345">50</text>
+        <text dominant-baseline="central" x="350" y="345">60</text>
+        <text dominant-baseline="central" x="400" y="345">70</text>
+        <text dominant-baseline="central" x="450" y="345">80</text>
+        <text dominant-baseline="central" x="500" y="345">90</text>
+        <text dominant-baseline="central" x="550" y="345">100</text>
+    </g>
+
+    <!-- Section for the y labels -->
+    <g class="ylabel">
+        <text dominant-baseline="central" x="40" y="55">O</text>
+        <text dominant-baseline="central" x="40" y="115">C</text>
+        <text dominant-baseline="central" x="40" y="175">E</text>
+        <text dominant-baseline="central" x="40" y="235">A</text>
+        <text dominant-baseline="central" x="40" y="295">N</text>
+    </g>
+
+    <!-- Section for bars and percents -->
+    <g class="bar">
+        <rect width="365" height="50" x="50" y="30"></rect>
+        <text dominant-baseline="central" x="420" y="55">73%</text>
+
+        <rect width="405" height="50" x="50" y="90"></rect>
+        <text dominant-baseline="central" x="460" y="115">81%</text>
+
+        <rect width="290" height="50" x="50" y="150"></rect>
+        <text dominant-baseline="central" x="345" y="175">58%</text>
+
+        <rect width="312.5" height="50" x="50" y="210"></rect>
+        <text dominant-baseline="central" x="367.5" y="235">62.5%</text>
+
+        <rect width="165" height="50" x="50" y="270"></rect>
+        <text dominant-baseline="central" x="220" y="295">33%</text>
+    </g>
+</svg>
+</body>
+</html>

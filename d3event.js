@@ -34,7 +34,7 @@ class D3Event {
             .style('display', 'inline-block')
             .on('mousemove', function(e) {
                 let mouse = d3.pointer(e);
-                self.handleMouseMove(mouse[0], mouse[1])
+                self.handleMouseMove(mouse[0], mouse[1]);
             });
 
         // loop over each of the icons. place them on the screen and add the mouse events

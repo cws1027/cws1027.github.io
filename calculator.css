@@ -1,0 +1,39 @@
+table, th, td {
+    border: black solid 1px;
+}
+
+th, td {
+    width: 90px;
+    text-align: center;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #20639b;
+    color: white;
+}
+
+table tr:nth-child(odd) {
+    background-color: #cdcdcd;
+}
+
+table tr .op {
+    background-color: #fecf6d !important;
+}
+
+
+/*
+table {
+    margin: 6px;
+}
+
+th {
+    background-color: yellowgreen;
+}
+
+th, td {
+    width: 90px;
+    text-align: center;
+    vertical-align: middle;
+} */

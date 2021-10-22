@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<form name="signup" class="form">
+    <div class="label">Username:</div>
+    <div class="content">
+        <input type="text" name="username" value="">
+    </div>
+
+    <div class="label">Email:</div>
+    <div class="content">
+        <input type="text" name="email" value="">
+    </div>
+
+    <div class="label">Phone Number:</div>
+    <div class="content">
+        <input type="text" name="phoneNumber" value="">
+    </div>
+
+    <div class="label">Enter Password:</div>
+    <div class="content">
+        <input type="password" name="password" value="">
+    </div>
+
+    <div class="label">Confirm Password:</div>
+    <div class="content">
+        <input type="password" name="confirmPassword" value="">
+    </div>
+
+    <div class="label">Gender:</div>
+    <div class="content">
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </div>
+
+    <div class="label">Birth Day:</div>
+    <div class="content">
+        <select name="month" id="month" value="">
+            <option value=""></option>
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="october">October</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+        </select>
+        <select name="day" id="day"></select>
+        <select name="year" id="year"></select>
+    </div>
+
+    <div class="label">Favorite Music Genre:</div>
+    <div class="content">
+        <input type="checkbox" id="pop" name="music" value="pop">
+        <label for="pop">Pop</label>
+        <input type="checkbox" id="hiphop" name="music" value="hiphop">
+        <label for="pop">Hiphop</label>
+        <input type="checkbox" id="jazz" name="music" value="jazz">
+        <label for="pop">Jazz</label>
+        <input type="checkbox" id="rock" name="music" value="rock">
+        <label for="pop">Rock</label>
+        <input type="checkbox" id="classical" name="music" value="classical">
+        <label for="pop">Classical music</label>
+        <input type="checkbox" id="country" name="music" value="country">
+        <label for="pop">Country</label>
+    </div>
+
+    <div class="content">
+        <button type="button" onclick="checkInputs()">Submit</button>
+        <button type="reset" onclick="removeWarnings()">Clear</button>
+    </div>
+</form>
+<script src="form.js"></script>
+</body>
+</html>
